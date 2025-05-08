@@ -28,18 +28,21 @@ Muestra cómo funciona el patrón Command que implementa los métodos arrancar, 
 💻 Tecnologías Utilizadas
 
 Java 21
+
 Git 
 
 
 📋 Requisitos
 
 Java 8 o superior
+
 Un IDE de tu preferencia, IntelliJ Idea recomendado.
 
 
 🛠️ Instalación
 
 Clona este repositorio: -> git clone https://github.com/rioacosta/S3.01--Patterns-1
+
 cd S3.01--Patterns-1
 
 
