@@ -3,7 +3,7 @@ package abstractFactory.interfaces;
 import abstractFactory.entities.Address;
 import abstractFactory.entities.Telephone;
 
-import static abstractFactory.app.FactoryHandler.userInput;
+import static abstractFactory.app.DirectoryHandler.userInput;
 
 public interface DirectoryFactory {
 

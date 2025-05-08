@@ -1,5 +1,5 @@
 package abstractFactory.interfaces;
 
-public abstract interface AddressInterface {
+public interface AddressInterface {
     String addressFormat();
 }

@@ -1,6 +1,5 @@
 package command.interfaces;
 
-@FunctionalInterface
 public interface Command {
-    void run();
+    void execute();
 }

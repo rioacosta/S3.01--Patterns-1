@@ -4,10 +4,6 @@ import command.interfaces.Vehicle;
 
 public class Plane implements Vehicle {
 
-    public Plane() {
-
-    }
-
     @Override
     public void accelerate() {
         System.out.println("Avión: Aumentando potencia");

@@ -1,7 +1,6 @@
 package abstractFactory.entities;
 
 public class Contact {
-
         private final Address address;
         private final Telephone phoneNumber;
         private final String name;

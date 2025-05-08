@@ -10,12 +10,11 @@ import abstractFactory.interfaces.DirectoryFactory;
 
 import java.util.Scanner;
 
-public class FactoryHandler {
-
+public class DirectoryHandler {
     public static Scanner userInput = new Scanner(System.in);
     private static final DirectoryBook directoryBook = new DirectoryBook();
-    private static String name;
     private static DirectoryFactory newFactory;
+    private static String name;
 
     public static DirectoryFactory createFactory () {
         System.out.println("""
@@ -47,19 +46,17 @@ public class FactoryHandler {
              option = userInput.nextInt();
              userInput.nextLine();
 
-           if (option == 5) {
-               System.out.println("Saliendo... Adios!");
+           if (option == 5) { System.out.println("Saliendo... Adios!");
             return;
            }
-           if (option == 4) {
-               directoryBook.printContacts();
+           if (option == 4) { directoryBook.printContacts();
             continue;
            }
 
            newFactory = createFactory();
 
            if (newFactory == null) {
-                System.out.println("País no incluido en el sistema, contacte con el administrador para agregar");
+              System.out.println("País no incluido en el sistema, contacte con el administrador para agregar");
             continue;
            }
 

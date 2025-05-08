@@ -1,9 +1,9 @@
 package abstractFactory;
 
-import abstractFactory.app.FactoryHandler;
+import abstractFactory.app.DirectoryHandler;
 
 public class Main {
     public static void main (String[] args) {
-       FactoryHandler.start();
+       DirectoryHandler.start();
     }
 }
