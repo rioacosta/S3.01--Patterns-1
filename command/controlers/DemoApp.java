@@ -1,9 +1,9 @@
 package command.controlers;
 
 import command.entities.*;
-import command.specificCommands.AccelerateCommand;
-import command.specificCommands.DoBrakeCommand;
-import command.specificCommands.StartCommand;
+import command.commands.AccelerateCommand;
+import command.commands.DoBrakeCommand;
+import command.commands.StartCommand;
 import command.interfaces.Vehicle;
 
 public class DemoApp {

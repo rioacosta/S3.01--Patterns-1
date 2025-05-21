@@ -1,6 +1,6 @@
 package command.entities;
 
-import command.interfaces.Command;
+import command.commands.Command;
 
 public class VehicleControl {
     private final Command start;

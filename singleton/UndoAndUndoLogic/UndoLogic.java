@@ -9,7 +9,7 @@ public class UndoLogic {
     public void addOrder () {
         System.out.println("Ingrese una orden");
         order = input.next();
-        undo.getHistory().add(order);
+        undo.addToHistory(order);
     }
 
     public void deleteOrder () {
@@ -22,7 +22,7 @@ public class UndoLogic {
         if (!undo.getHistory().contains(order)) {
             System.out.println("La orden no existe");
         }
-        undo.getHistory().remove(order);
+        undo.removeFromHistory(order);
     }
 
     public void showOrders () {
